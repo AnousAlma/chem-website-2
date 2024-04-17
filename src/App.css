@@ -1,38 +1,156 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Protest+Strike&display=swap');
+
+.title1 {
+    font-size: 2em;
+    margin: 0;
+    padding: 0;
+    color: #1959A8;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    margin-top: 5vh;
+    font-family: "Protest Strike", sans-serif;
+    font-size: 3rem;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.title2 {
+    font-size: 2em;
+    margin: 0;
+    padding: 0;
+    color: #E6A657;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    margin-bottom: 5vh;
+    font-weight: bold;
+    font-family: "Protest Strike", sans-serif;
+    font-size: 5rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.connection {
+    width: fit-content;
+    padding: 0.5vw;
+    background-color: rgb(221, 41, 101);
+    margin: 0 auto;
+    border-radius: 15px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.connection-text {
+    margin: 0.25vw;
 }
 
-.App-link {
-  color: #61dafb;
+.fact1-title {
+    margin-bottom: 0.5vh;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.fun-fact-1 {
+    width: 75vw;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: palevioletred;
+    border-radius: 20px;
+    color: gainsboro;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 1.25rem;
+    margin-bottom: 5vh;
+    text-align: center;
+}
+
+.fun-fact-2 {
+    width: 75vw;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: blue;
+    border-radius: 20px;
+    color: gainsboro;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 1.25rem;
+    margin-bottom: 5vh;
+    text-align: center;
+}
+
+.fun-fact-3 {
+    width: 75vw;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: orangered;
+    border-radius: 20px;
+    color: gainsboro;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 1.25rem;
+    margin-bottom: 5vh;
+    text-align: center;
+}
+
+
+.button1 {
+    background-color: gainsboro;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    margin: 0 auto;
+    display: block;
+    margin-top: 5vh;
+    cursor: pointer;
+}
+
+.button1:active {
+    background-color: #000000;
+    color: gainsboro;
+}
+
+.button1:visited {
+    text-decoration: none;
+    color: gainsboro;
+}
+
+.riddle-title {
+    font-size: 4rem;
+}
+
+.correct-answer {
+    background-color: rgb(240, 95, 43);
+    color: gainsboro;
+    width: 70%;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 20px;
+    margin-top: 2vh;
+}
+
+.button2 {
+    background-color: white;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    margin: 0 auto;
+    display: block;
+    margin-top: 0.5vh;
+    cursor: pointer;
+}
+
+.button2:active {
+    background-color: #000000;
+    color: gainsboro;
+}
+
+.input {
+    width: 70%;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 2vh;
+    font-size: 1rem;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
 }
